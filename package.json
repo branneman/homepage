@@ -1,0 +1,22 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -g -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/branneman/homepage.git"
+  },
+  "author": "Bran van der Meer <bran.van.der.meer@protonmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/branneman/homepage/issues"
+  },
+  "homepage": "https://github.com/branneman/homepage#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
