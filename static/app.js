@@ -4,7 +4,7 @@
   const randomItem = list => list[Math.round(Math.random() * (list.length - 1))]
 
   // Config
-  const config = window.location.search.substr(1).split('|')
+  const config = decodeURIComponent(window.location.search.substr(1)).split('|')
   const keywords = config[0].split(',')
   const api = {
     baseUrl: 'https://api.unsplash.com',
