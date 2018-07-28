@@ -18,6 +18,9 @@ a {
   color: black;
   text-decoration: none;
 }
+a[rel='external'] {
+  text-decoration: underline;
+}
 
 figure,
 figcaption {
@@ -34,13 +37,9 @@ figcaption {
 
 .app figcaption {
   position: absolute;
-  right: 3em;
-  bottom: 3em;
-  padding: 1.5em;
-  border-radius: 1em;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.app p {
-  font-size: 1.4em;
+  right: 1em;
+  bottom: 1em;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  background: rgba(255, 255, 255, 0.8);
 }
